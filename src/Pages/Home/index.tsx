@@ -1,37 +1,43 @@
 
-import {Lista1,Lista2,Lista3} from './style';
+import {Rectangle,Texto,Coluna1,Coluna2,Coluna3} from './style';
 
 
 export function Home() {
 
 
+    const lista1 = ["JavaScript","React","Vue Js", "Tailwind CSS"];
+    const coluna1 = lista1.map(
+  
+      (a)=> <ul><li>{a}</li></ul>
+  
+    )
+    const lista2 = ["Styled Components", "Saas", "Node", "TypeScript"];
+    const coluna2 = lista2.map(
+  
+  (b)=> <ul><li>{b}</li></ul>
+  
+    )
+    const lista3 = ["Angular", "Java"];
+    const coluna3 = lista3.map(
+  
+  (c)=> <ul><li>{c}</li></ul>
+  
+    )
 return (
 
  
   <div>
-     
-      <Lista1> 
-        <div>
-        <ul><li>JavaScript</li></ul>
-        <ul><li>React</li></ul>
-        <ul><li>Vue Js</li></ul>
-        <ul><li>Tailwind CSS</li></ul>
-        </div>
-        </Lista1>
-
-        <Lista2>
-        <ul><li>Styled Components</li></ul>
-        <ul><li>Saas</li></ul>
-        <ul><li>Node</li></ul>
-        <ul><li>TypeScript</li></ul>
-        </Lista2>
+       <Texto>Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</Texto>
+       <Rectangle> </Rectangle>
+          
+       
+            <Coluna1>{coluna1}</Coluna1>
+            <Coluna2>{coluna2}</Coluna2> 
+            <Coluna3>{coluna3}</Coluna3>      
+       
       
-        <Lista3>
-        <ul><li>Angular</li></ul>
-        <ul><li>Java</li></ul>       
-        </Lista3>
 
-   
+           
         </div>
 
         
