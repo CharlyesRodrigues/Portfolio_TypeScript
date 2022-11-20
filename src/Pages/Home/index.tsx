@@ -1,5 +1,5 @@
 
-import {Rectangle,Lista1,Lista2,Lista3,Header} from './style';
+import {Rectangle,Lista1,Lista2,Lista3} from './style';
 
 
 export function Home() {
@@ -7,12 +7,10 @@ export function Home() {
 
 return (
 
-    <Header>
-         <h1>Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
- 
-     <Rectangle>
-        
-              <Lista1>
+  
+   <Rectangle>
+    
+        <Lista1>
         <ul><li>JavaScript</li></ul>
         <ul><li>React</li></ul>
         <ul><li>Vue Js</li></ul>
@@ -33,7 +31,7 @@ return (
 
     </Rectangle>
     
-    </Header>
+
      
     )
   }
