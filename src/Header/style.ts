@@ -55,6 +55,22 @@ h1{
     color: #FFFFFF;
     
 }
-
-
 `
+
+export const Rectangle = styled.div `
+
+box-sizing: border-box;
+
+position: absolute;
+width: 793px;
+height: 173px;
+left: 324px;
+top: 305px;
+
+/* Dark/surface-secondary */
+
+background: #27272A;
+border: 1px solid #9D4B00;
+border-radius: 8px;
+
+`;

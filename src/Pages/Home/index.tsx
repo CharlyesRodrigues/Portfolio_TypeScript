@@ -1,5 +1,5 @@
 
-import {Rectangle,Lista1,Lista2,Lista3} from './style';
+import {Lista1,Lista2,Lista3} from './style';
 
 
 export function Home() {
@@ -7,14 +7,16 @@ export function Home() {
 
 return (
 
-  
-   <Rectangle>
-    
-        <Lista1>
+ 
+  <div>
+     
+      <Lista1> 
+        <div>
         <ul><li>JavaScript</li></ul>
         <ul><li>React</li></ul>
         <ul><li>Vue Js</li></ul>
         <ul><li>Tailwind CSS</li></ul>
+        </div>
         </Lista1>
 
         <Lista2>
@@ -29,9 +31,9 @@ return (
         <ul><li>Java</li></ul>       
         </Lista3>
 
-    </Rectangle>
-    
+   
+        </div>
 
-     
+        
     )
   }

@@ -2,31 +2,7 @@ import styled from "styled-components";
 
 
 
-
-
-
-
-export const Rectangle = styled.div `
-
-
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 793px;
-height: 173px;
-left: 324px;
-top: 305px;
-
-/* Dark/surface-secondary */
-
-background: #27272A;
-border: 1px solid #9D4B00;
-border-radius: 8px;
-
-`;
-export const Lista1= styled.span`
+export const Lista1= styled.div`
 
 position: absolute;
 width: 157px;
@@ -46,7 +22,7 @@ color: #EDEDED;
 
 `;
 
-export const Lista2= styled.span`
+export const Lista2= styled.div`
 
 position: absolute;
 width: 222px;
@@ -68,7 +44,7 @@ color: #EDEDED;
 
 
 
-export const Lista3= styled.span`
+export const Lista3= styled.div`
 
 position: absolute;
 width: 106px;
