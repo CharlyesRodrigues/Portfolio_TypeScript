@@ -9,7 +9,7 @@ export function Home() {
     const {t} = useTranslation();
     return (
   
-      <h1>Teste</h1>
+      <h1>{t("welcome")}  </h1>
     )
   }
   
