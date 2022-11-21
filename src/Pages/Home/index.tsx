@@ -1,7 +1,7 @@
 
 import {Rectangle,Texto,Coluna1,Coluna2,Coluna3} from './style';
 
-
+import {Botao} from '../../Components/Botao/index'
 export function Home() {
 
 
@@ -37,7 +37,7 @@ return (
        
       
 
-           
+           <Botao />
         </div>
 
         
