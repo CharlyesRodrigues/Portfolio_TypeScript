@@ -33,7 +33,7 @@ return (
        
             <Coluna1>{coluna1}</Coluna1>
             <Coluna2>{coluna2}</Coluna2> 
-           
+            <Coluna3>{coluna3}</Coluna3>      
        
       
 
