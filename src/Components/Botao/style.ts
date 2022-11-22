@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const Background_Português = styled.div `
 
-div{
+
+div {
     position: absolute;
     width: 133px;
     height: 51px;
@@ -14,12 +15,9 @@ div{
     
     background: #27272A;
     border-radius: 8px;
-
-
-
-
-
 }
+
+
  
 h1{
     position: absolute;
@@ -38,9 +36,19 @@ h1{
     
     color: #EDEDED;
 
+}
+img{
+
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 482px;
+    top: 837px;
+    
+    background: url(brazil.png);
 
 }
-
 
 
 `
@@ -79,7 +87,19 @@ h1{
 
 
 }
+img{
 
+    
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 682px;
+    top: 837px;
+    
+    background: url(united-states.png);
+
+}
 
 `
 export const Background_Espanhol = styled.div `
@@ -117,6 +137,17 @@ h1{
 
 
 }
+img{
 
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 853px;
+    top: 837px;
+    
+    background: url(spain.png);
+
+
+}
 `
 
