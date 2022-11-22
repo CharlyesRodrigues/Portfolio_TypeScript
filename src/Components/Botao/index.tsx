@@ -7,12 +7,15 @@ import EUA from '../../assets/Flags/usa.png'
 
 
 export function Botao() {
+ function teste (){
+console.log("Teste")
 
+ }
 
     return (
         <div>
                 
-        <Background_Português>
+        <Background_Português type='button' onClick={teste}>
         <div ></div>
         <h1>Portugues</h1>
         <img  src={Brasil}></img>

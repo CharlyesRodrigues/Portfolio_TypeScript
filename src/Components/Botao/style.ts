@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const Background_Português = styled.div `
+export const Background_Português = styled.button `
 
 
 div {
