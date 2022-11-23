@@ -53,7 +53,7 @@ img{
 
 `
 
-export const Background_English = styled.div `
+export const Background_English = styled.button `
 
 div{
 position: absolute;
@@ -102,7 +102,7 @@ img{
 }
 
 `
-export const Background_Espanhol = styled.div `
+export const Background_Espanhol = styled.button `
 
 div{position: absolute;
 width: 133px;

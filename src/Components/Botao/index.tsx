@@ -7,27 +7,43 @@ import EUA from '../../assets/Flags/usa.png'
 
 
 export function Botao() {
- function teste (){
-console.log("Teste")
-
+ 
+    function pt (){
+console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:"
+)
  }
+ 
+ 
+    function usa (){
+   console.log("Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:"
 
+   )
+    
+    }
+    
+        function spain (){
+       console.log("Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
+
+    
+       )
+        }
+        
     return (
         <div>
                 
-        <Background_Português type='button' onClick={teste}>
+        <Background_Português type='button' onClick={pt}>
         <div ></div>
         <h1>Portugues</h1>
         <img  src={Brasil}></img>
         </Background_Português>
 
-        <Background_English>
+        <Background_English type='button' onClick={usa}>
         <div></div>
         <h1>English</h1>
         <img  src={EUA}></img>
         </Background_English>
 
-        <Background_Espanhol>
+        <Background_Espanhol type='button' onClick={spain}>
         <div></div>
         <h1>Spain</h1>
         <img  src={Espanha}></img>
