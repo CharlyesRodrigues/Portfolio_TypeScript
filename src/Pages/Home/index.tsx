@@ -4,7 +4,7 @@ import {Rectangle,Texto,Coluna1,Coluna2,Coluna3} from './style';
 import {Botao} from '../../Components/Botao/index'
 
 
-export function Home (props) {
+export function Casa (props) {
 
   
 
@@ -33,7 +33,7 @@ return (
  
   <div>
     
-       <Texto>Portugues:{props.Portugues()}</Texto>
+       <Texto>{props.Portugues}</Texto>
        <Rectangle> </Rectangle>
           
        
@@ -43,7 +43,7 @@ return (
        
       
 
-        
+           <Botao />
         </div>
 
         
