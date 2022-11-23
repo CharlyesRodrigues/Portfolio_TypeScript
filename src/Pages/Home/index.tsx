@@ -6,6 +6,8 @@ import {Botao} from '../../Components/Botao/index'
 
 export function Home (props) {
 
+  
+
     const lista1 = ["JavaScript","React","Vue Js", "Tailwind CSS"];
     const coluna1 = lista1.map(
   
@@ -30,7 +32,8 @@ return (
 
  
   <div>
-       <Texto>ddd:{props.Portugues()}</Texto>
+    
+       <Texto>Portugues:{props.Portugues()}</Texto>
        <Rectangle> </Rectangle>
           
        

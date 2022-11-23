@@ -9,20 +9,25 @@ import {Home} from "./../../Pages/Home/index"
 export function Botao() {
  
     function pt (){
-console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:"
+return (
+    <div>
+    
+ <h1>   "Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:"</h1>
+ 
+    </div>
 )
  }
  
  
     function usa (){
-   console.log("Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:"
+   return ("Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:"
 
    )
     
     }
     
         function spain (){
-       console.log("Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
+       return("Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
 
     
        )
