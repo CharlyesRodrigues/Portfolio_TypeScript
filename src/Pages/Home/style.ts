@@ -18,7 +18,7 @@ border-radius: 8px;
 
 `;
 
-export const Texto= styled.h1`
+export const Texto= styled.p`
 
 position: absolute;
 width: 791px;

@@ -4,8 +4,7 @@ import {Rectangle,Texto,Coluna1,Coluna2,Coluna3} from './style';
 import {Botao} from '../../Components/Botao/index'
 
 
-export function Home() {
-
+export function Home (props) {
 
     const lista1 = ["JavaScript","React","Vue Js", "Tailwind CSS"];
     const coluna1 = lista1.map(
@@ -31,7 +30,7 @@ return (
 
  
   <div>
-       <Texto>Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</Texto>
+       <Texto>ddd:{props.Portugues()}</Texto>
        <Rectangle> </Rectangle>
           
        

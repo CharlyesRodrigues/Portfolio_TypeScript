@@ -4,7 +4,7 @@ import Brasil from '../../assets/Flags/brasil.png'
 import Espanha from '../../assets/Flags/spain.png'
 import EUA from '../../assets/Flags/usa.png'
 
-
+import {Home} from "./../../Pages/Home/index"
 
 export function Botao() {
  
@@ -29,8 +29,14 @@ console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor F
         }
         
     return (
-        <section>
-           
+        <div>
+              <Home
+              
+              Portugues = {pt}
+              Espanhol = {spain}
+              English = {usa}
+                            
+              />  
         <Background_Português type='button' onClick={pt}>
         <div ></div>
         <h1>Portugues</h1>
@@ -50,7 +56,7 @@ console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor F
         </Background_Espanhol>
  
  
-</section>
+</div>
 
   
     )
