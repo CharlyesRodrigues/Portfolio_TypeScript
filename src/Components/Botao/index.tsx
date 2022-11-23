@@ -29,8 +29,8 @@ console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor F
         }
         
     return (
-        <div>
-                
+        <section>
+           
         <Background_Português type='button' onClick={pt}>
         <div ></div>
         <h1>Portugues</h1>
@@ -50,7 +50,7 @@ console.log("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor F
         </Background_Espanhol>
  
  
-</div>
+</section>
 
   
     )
