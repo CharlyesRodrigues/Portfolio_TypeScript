@@ -1,5 +1,5 @@
 
-import {Rectangle,Texto,Coluna1,Coluna2,Coluna3} from './style';
+import {Rectangle,Coluna1,Coluna2,Coluna3} from './style';
 
 import {Botao} from '../../Components/Botao/index'
 
@@ -33,7 +33,6 @@ return (
  
   <div>
     
-       <Texto>{props.Botao()}</Texto>
        <Rectangle> </Rectangle>
           
        

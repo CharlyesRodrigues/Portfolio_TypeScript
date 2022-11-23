@@ -1,7 +1,10 @@
-
 import {Header} from './Header/index'
+import {Home} from './Pages/Home'
+import { Traduzir } from './Translation'
 import {GlobalStyle } from './Styles/global'
 import {Botao} from './Components/Botao'
+
+
 
 function App() {
 
@@ -12,13 +15,10 @@ function App() {
 
   
    <Header />
-  <Botao 
-  Espanhol = "Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
-  Portugues = "Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:"
-  English = "Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:"
- 
   
-  />
+   <Home />
+  <Traduzir />
+  <Botao />
   <GlobalStyle/>
 
    </>

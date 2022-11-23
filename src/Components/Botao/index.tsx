@@ -5,27 +5,25 @@ import Espanha from '../../assets/Flags/spain.png'
 import EUA from '../../assets/Flags/usa.png'
 
 
-export function Botao(props) {
- 
- 
+export function Botao() { 
     
         
     return (
         <div>
             
-        <Background_Português type='button' onClick={props.Portugues} >
+        <Background_Português type='button' >
         <div ></div>
         <h1>Portugues</h1>
         <img  src={Brasil}></img>
         </Background_Português>
 
-        <Background_English type='button' onClick={props.Espanhol} >
+        <Background_English type='button' >
         <div></div>
         <h1>English</h1>
         <img  src={EUA}></img>
         </Background_English>
 
-        <Background_Espanhol type='button' onClick={props.English} >
+        <Background_Espanhol type='button'  >
         <div></div>
         <h1>Spain</h1>
         <img  src={Espanha}></img>
