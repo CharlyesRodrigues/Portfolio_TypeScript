@@ -2,7 +2,7 @@ import {Header} from './Header/index'
 import {Home} from './Pages/Home'
 import { Traduzir } from './Translation'
 import {GlobalStyle } from './Styles/global'
-import {Botao} from './Components/Botao'
+import {Botao } from './Components/Botao'
 
 
 
@@ -13,11 +13,9 @@ function App() {
    
   <>
 
-  
-   <Header />
-  
-   <Home />
-  <Traduzir />
+ 
+  <Header />  
+  <Home />
   <Botao />
   <GlobalStyle/>
 

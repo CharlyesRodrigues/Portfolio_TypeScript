@@ -42,7 +42,6 @@ return (
        
       
 
-           <Botao />
         </div>
 
         
