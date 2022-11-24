@@ -6,6 +6,9 @@ import EUA from '../../assets/Flags/usa.png'
 import { useState } from 'react' 
 
 export function Botao() { 
+    const [] = useState();
+    
+    
     
     const [traducao,setTraducao] = useState("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:" )
     

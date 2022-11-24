@@ -17,7 +17,12 @@ div {
     border-radius: 8px;
 }
 
-
+div:hover{
+    background-color: var(--dark);
+    cursor: pointer;
+    border:solid;
+    border-color: green;
+}
  
 h1{
     position: absolute;
@@ -54,7 +59,11 @@ img{
 `
 
 export const Background_English = styled.button `
+button: hover{
 
+    
+
+}
 div{
 position: absolute;
 width: 133px;
@@ -66,6 +75,13 @@ top: 821px;
 
 background: #27272A;
 border-radius: 8px;
+}
+
+div:hover{
+    background-color: var(--dark);
+    cursor: pointer;
+    border:solid;
+    border-color: red;
 }
 h1{
 
@@ -114,6 +130,12 @@ top: 821px;
 
 background: #27272A;
 border-radius: 8px;
+}
+div:hover{
+    background-color: var(--dark);
+    cursor: pointer;
+    border:solid;
+    border-color: orange;
 }
 h1{
 
