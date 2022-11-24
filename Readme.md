@@ -12,5 +12,7 @@ a linguagem selecionada
 CSS
 
 ![image](https://user-images.githubusercontent.com/98665329/203875715-9707451e-9bcc-4114-8f6e-46ac27a5ef2f.png)
+
 ![image](https://user-images.githubusercontent.com/98665329/203875876-e9d90e3b-76c9-448e-9869-708998a6011d.png)
+
 ![image](https://user-images.githubusercontent.com/98665329/203875909-d4fc1888-80e2-4a9a-835a-ab2729228ec8.png)
