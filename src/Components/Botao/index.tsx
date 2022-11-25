@@ -18,7 +18,7 @@ export function Botao() {
    
    }
    
-   function esp(){
+ const esp =() =>{
    
       setTraducao ("Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:")
    
