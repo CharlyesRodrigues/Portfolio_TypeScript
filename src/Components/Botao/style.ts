@@ -9,7 +9,7 @@ div {
     width: 133px;
     height: 51px;
     left: 470px;
-    top: 821px;
+    top: 561px;
     
     /* Dark/surface-secondary */
     
@@ -29,7 +29,7 @@ h1{
     width: 81px;
     height: 26px;
     left: 510px;
-    top: 834px;
+    top: 574px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -49,9 +49,9 @@ img{
     width: 20px;
     height: 20px;
     left: 482px;
-    top: 837px;
+    top: 577px;
     
-    background: url(brazil.png);
+
 
 }
 
@@ -59,17 +59,13 @@ img{
 `
 
 export const Background_English = styled.button `
-button: hover{
 
-    
-
-}
 div{
 position: absolute;
 width: 133px;
 height: 51px;
 left: 653px;
-top: 821px;
+top: 561px;
 
 /* Dark/surface-secondary */
 
@@ -89,7 +85,7 @@ h1{
     width: 47px;
     height: 26px;
     left: 710px;
-    top: 834px;
+    top: 574px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -111,9 +107,9 @@ img{
     width: 20px;
     height: 20px;
     left: 682px;
-    top: 837px;
+    top: 577px;
     
-    background: url(united-states.png);
+  
 
 }
 
@@ -124,7 +120,7 @@ div {position: absolute;
 width: 133px;
 height: 51px;
 left: 836px;
-top: 821px;
+top: 561px;
 
 /* Dark/surface-secondary */
 
@@ -144,7 +140,7 @@ h1{
     width: 72px;
     height: 26px;
     left: 881px;
-    top: 834px;
+    top: 574px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -165,9 +161,9 @@ img{
     width: 20px;
     height: 20px;
     left: 853px;
-    top: 837px;
+    top: 577px;
     
-    background: url(spain.png);
+   
 
 
 }
