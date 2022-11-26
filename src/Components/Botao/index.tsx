@@ -5,10 +5,8 @@ import Espanha from '../../assets/Flags/spain.png'
 import EUA from '../../assets/Flags/usa.png'
 import { useState } from 'react' 
 
-export function Botao() { 
-    const [] = useState();
-    
-    
+export function Botao( props ) { 
+       
     
     const [traducao,setTraducao] = useState("Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:" )
     
@@ -35,19 +33,19 @@ export function Botao() {
            <Texto>{traducao}</Texto>   
         <Background_Português type='button' onClick={pt}  >
         <div ></div>
-        <h1>Portugues</h1>
+        <h1>{props.pt} </h1>
         <img  src={Brasil}></img>
         </Background_Português>
 
         <Background_English type='button' onClick={eng} >
         <div></div>
-        <h1>English</h1>
+        <h1>{props.en} </h1>
         <img  src={EUA}></img>
         </Background_English>
 
         <Background_Espanhol type='button' onClick={esp} >
         <div></div>
-        <h1>Spain</h1>
+        <h1>{props.esp} </h1>
         <img  src={Espanha}></img>
         </Background_Espanhol>
  

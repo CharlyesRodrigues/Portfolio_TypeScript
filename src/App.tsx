@@ -16,7 +16,12 @@ function App() {
  
   <Header />  
   <Home />
-  <Botao />
+  <Botao 
+  pt = "Portugues"
+  en = " Inglês"
+  esp = " Spain"
+  
+  />
   <GlobalStyle/>
 
    </>
