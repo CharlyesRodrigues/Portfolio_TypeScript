@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const Background_Português = styled.button `
+export const Background_Português = styled.button`
 
 
 div {
@@ -58,7 +58,7 @@ img{
 
 `
 
-export const Background_English = styled.button `
+export const Background_English = styled.button`
 
 div{
 position: absolute;
@@ -114,7 +114,7 @@ img{
 }
 
 `
-export const Background_Espanhol = styled.button `
+export const Background_Espanhol = styled.button`
 
 div {position: absolute;
 width: 133px;
@@ -169,7 +169,7 @@ img{
 }
 `
 
-export const Texto = styled.h1 `
+export const Texto = styled.h1`
 
 position: absolute;
 width: 791px;

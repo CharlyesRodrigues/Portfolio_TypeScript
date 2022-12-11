@@ -1,26 +1,25 @@
-import { Container} from './style';
+import { Container } from './style';
 
-import LogoPng  from '../assets/Logo/image.png'
+import LogoPng from '../assets/Logo/image.png'
 
 
 export function Header() {
 
 
-    return (
-  
-  <Container>
+  return (
+
+    <Container>
 
 
-<div></div>
-<img  src={LogoPng}></img>
+      <div></div>
+      <img src={LogoPng}></img>
 
 
-  </Container>
-  
- 
+    </Container>
 
-  
-    )
-  }
-  
- 
+
+
+
+  )
+}
+
