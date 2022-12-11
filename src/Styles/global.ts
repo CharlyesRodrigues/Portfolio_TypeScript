@@ -7,10 +7,10 @@ export const GlobalStyle = createGlobalStyle`
 :root{
     --white:#FFFFFF;
     --dark: #121212;
-    --white: #EDEDED ;
+    --white2: #EDEDED ;
     --Rectangle-4234: #27272A;
-    --red :#990100;
-    
+    --logo : #DADADA;
+    --borda :#9D4B00 
 
 }
 
