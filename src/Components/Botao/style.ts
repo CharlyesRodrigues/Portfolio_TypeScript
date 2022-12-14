@@ -13,6 +13,8 @@ div {
             
     background: var(--Rectangle-4234);
     border-radius: 0.5rem;
+
+
 }
 
 div:hover{
@@ -108,7 +110,8 @@ img{
 `
 export const Background_Espanhol = styled.button`
 
-div {position: absolute;
+div { 
+position: absolute;
 width: 8.3125rem;
 height:3.1875rem;
 left:52.25rem;
