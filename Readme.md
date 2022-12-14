@@ -8,8 +8,7 @@ a linguagem selecionada
 3) O botão de linguagem  deve ser um componente onde você passará 3 propriedades: Título,
 ícone e o click dele
 
-4) Para estilização com React use Styled Components, em Angular Saas e em Vue use Tailwind
-CSS
+4) Nesse projeto eu utilizei React com Styled Components
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726683-87347066-ce8f-4620-9258-a95ab10f1d1c.PNG)
