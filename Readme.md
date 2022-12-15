@@ -17,13 +17,73 @@ index.tsx eu dei um nome sugestivo  e coloquei dentro do import para ser usado e
 ts aonde criei e exportei uma const  como o nome importado(Sugestivo)  e atráves do styled. eu pude dizer se era um botão, 
 uma div ou uma h1  e por ai vai.Vale a pena ressaltar que para o  estilo global tivemos que importar o createGlobalStyle  
 e criar uma constante e exportá-la para ser utilizado em todo o projeto (export const GlobalStyle = createGlobalStyle).
-    Nesse projeto criei três pastas uma com o nome componente com uma subpasta chamada botão, outra pasta criada foi a 
-Header e a outra foi a Pages com uma subpasta chamada home, todas com o nome de arquivo.tsx e style.ts.
-No componente botão fiz o uso do useState a qual foi importado e iniciei ele com a escrita principal "Olá meu nome...." a 
+    Nesse projeto criei três pastas .Uma com o nome componente e sua subpasta chamada botão, outra pasta criada foi a Header
+e a outra foi a Pages com uma subpasta chamada home, todas com um arquivo.tsx e um  style.ts. Cada pasta ficou responsável por
+uma funcionalidade. 
+    No componente botão fiz o uso do useState a qual foi importado e iniciei ele com a escrita principal "Olá meu nome...." a 
 qual seria mudada segundo os botões criados na imagem abaixo que condiz com 3 funções criada nessa pasta a qual cada uma
-muda o estado principal da escrita para a linguagem selecionada 
-setTradução que esta presente no hook dando a assim a possiblidade de mudar o estado dele inicial que é tradução.
+muda o estado principal da state para a linguagem selecionada.Fiz também o uso do props, aonde no app.tsx coloquei as informações
+referente a linguagem dos botões e através da função do Botão coloquei como parâmetro o comando props para
+conseguir usar as informações criadas no componente do App.tsx. 
+Exemplo:
 
+App.tsx
+ <Botao
+        pt="Portugues"
+        en=" Inglês"
+        esp=" Spain"
+
+      />
+
+Pasta Botao
+export function Botao(props)
+
+<h1>{props.pt} </h1>
+
+    A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
+Dentro da página Home no arquivo index.tsx, fiz três arrays, uma para cada coluna de tecnologia proposta no enunciado,
+e utilizei para cada array uma const coluna aonde  foi possível fazer o map desses arrays e apartir dai chamei para dentro
+do meu codigo html da pasta Home.
+Exemplo:
+
+  const lista1 = ["JavaScript", "React", "Vue Js", "Tailwind CSS"];
+  const coluna1 = lista1.map(
+
+    (a) => <ul><li>{a}</li></ul>
+
+  )
+  
+      <Coluna1>{coluna1}</Coluna1>
+      <Coluna2>{coluna2}</Coluna2>
+      <Coluna3>{coluna3}</Coluna3>
+
+    Todas as páginas criadas  foram exportadas para ser importadas em nosso arquivo  App.tsx, que
+praticamente integra todas elas e esse arquivo App.tsx é exportado para  main.tsx.
+Exemplo:
+
+
+
+import { Header } from './Header/index'
+
+function App() {
+
+
+  return (
+
+    <>
+
+
+      <Header />
+      <Home />
+      <Botao />
+      <GlobalStyle />
+
+    </>
+
+  )
+}
+
+export default App
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207726683-87347066-ce8f-4620-9258-a95ab10f1d1c.PNG)
