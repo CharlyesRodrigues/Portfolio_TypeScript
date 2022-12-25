@@ -60,12 +60,14 @@ conseguir usar as informações criadas no componente do App.tsx.
 Exemplo:
 
 App.tsx
- <Botao pt="Portugues"  en=" Inglês" esp=" Spain"  />
+
+![image](https://user-images.githubusercontent.com/98665329/209465615-cdf998f6-d003-494f-88b0-df1ff3990aba.png)
+
 
 Pasta Botao
 export function Botao(props)
 
-{props.pt} => Através da porps em meu componente botão irá aparecer o nome pt que é Portugues.
+{props.pt} => Através do parâmetro consigo associar a escrita ao compontent botão, ou seja, cada botão com sua escrita particular.
 
  A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
 Dentro da página Home no arquivo index.tsx, fiz três arrays, uma para cada coluna de tecnologia proposta no enunciado,
