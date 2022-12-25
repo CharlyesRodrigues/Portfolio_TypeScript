@@ -1,4 +1,4 @@
-Requisitos:
+:pushpin: Requisitos:
 
 1) A lista de tecnologias deve ser um array onde no HTML você irá fazer um map para listar
 
@@ -8,16 +8,27 @@ a linguagem selecionada
 3) O botão de linguagem  deve ser um componente onde você passará 3 propriedades: Título,
 ícone e o click dele
 
-4) Nesse projeto eu utilizei React com Styled Components
+4) Nesse projeto eu utilizei React com Styled Components que foi instalado em meu terminal através do comando
+npm install --save styled-components.
 
 ![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209464095-407264c0-46dc-40d9-af42-0f4f126b52f5.png)
 ![styled](https://user-images.githubusercontent.com/98665329/209464299-9d68a61a-7f39-4682-ab79-c32a0efad346.png)
 
 
 
+# Passo a passo do Projeto
 
-que foi instalado em meu terminal através do comando:
-npm install --save styled-components.
+1º NODE
+2º YARN OU NPM 
+3º PowerShell
+
+* npm create vite@latest
+- Vai fazer uma pergunda e digitamos y
++ Vai pedir o nome do projeto
+* Vai pedir o Framework  que será utilizado
+* Por fim vai pedir a variant que no meu caso é o TypeScript
+
+
 
     Essa biblioteca nos permite trabalhar com o CSS dentro do React com TypeScript, mas para isso temos que importá-la
 para o projeto e utilizá-la em nossos arquivos de style.ts de cada pasta criada.Para cada tag que eu criei em meu arquivo 
@@ -67,8 +78,6 @@ Exemplo:
 
     Todas as páginas criadas  foram exportadas para ser importadas em nosso arquivo  App.tsx, que
 praticamente integra todas elas e esse arquivo App.tsx é exportado para  main.tsx.
-Exemplo:
-
 
 
 import { Header } from './Header/index'
