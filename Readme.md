@@ -60,16 +60,12 @@ conseguir usar as informações criadas no componente do App.tsx.
 Exemplo:
 
 App.tsx
- <Botao
-        pt="Portugues"
-        en=" Inglês"
-        esp=" Spain"
-      />
+ <Botao pt="Portugues"  en=" Inglês" esp=" Spain"  />
 
 Pasta Botao
 export function Botao(props)
 
-<h1>{props.pt} </h1>
+{props.pt} => Através da porps em meu componente botão irá aparecer o nome pt que é Portugues.
 
  A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
 Dentro da página Home no arquivo index.tsx, fiz três arrays, uma para cada coluna de tecnologia proposta no enunciado,
@@ -100,8 +96,6 @@ function App() {
   return (
 
     <>
-
-
       <Header />
       <Home />
       <Botao />
