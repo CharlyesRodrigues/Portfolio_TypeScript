@@ -67,7 +67,7 @@ App.tsx
 Pasta Botao
 export function Botao(props)
 
-{props.pt} => Através do parâmetro consigo associar a escrita ao compontent botão, ou seja, cada botão com sua escrita particular.
+{props.pt} => Através do parâmetro consigo associar a propriedade ao compontent botão, ou seja, cada botão com sua escrita particular.
 
  A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
 Dentro da página Home no arquivo index.tsx, fiz três arrays, uma para cada coluna de tecnologia proposta no enunciado,
