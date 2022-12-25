@@ -8,7 +8,14 @@ a linguagem selecionada
 3) O botão de linguagem  deve ser um componente onde você passará 3 propriedades: Título,
 ícone e o click dele
 
-4) Nesse projeto eu utilizei React com Styled Components que foi instalado em meu terminal através do comando:
+4) Nesse projeto eu utilizei React com Styled Components
+
+![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209464095-407264c0-46dc-40d9-af42-0f4f126b52f5.png)
+![image](https://user-images.githubusercontent.com/98665329/209464200-a0e0dded-1abb-4aa9-bdf0-7e2b3c06cb28.png)
+
+
+
+que foi instalado em meu terminal através do comando:
 npm install --save styled-components.
 
     Essa biblioteca nos permite trabalhar com o CSS dentro do React com TypeScript, mas para isso temos que importá-la
