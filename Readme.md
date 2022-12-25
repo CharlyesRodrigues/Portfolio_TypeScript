@@ -11,7 +11,8 @@ a linguagem selecionada
 4) Nesse projeto eu utilizei React com Styled Components
 
 ![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209464095-407264c0-46dc-40d9-af42-0f4f126b52f5.png)
-![image](https://user-images.githubusercontent.com/98665329/209464200-a0e0dded-1abb-4aa9-bdf0-7e2b3c06cb28.png)
+![styled](https://user-images.githubusercontent.com/98665329/209464299-9d68a61a-7f39-4682-ab79-c32a0efad346.png)
+
 
 
 
