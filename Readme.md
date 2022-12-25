@@ -30,6 +30,11 @@ npm install --save styled-components.
 * Vai pedir o Framework  que será utilizado
 * Por fim vai pedir a variant que no meu caso é o TypeScript
 
+Após o procedimento acima, basta selecionarmos a pasta aonde o arquivo foi criado utilizando o comando cd + mais o nome da pasta
+Após isso digitamos npm install  e logo em seguida abrimos nosso Visual code e  digitamos no terminal npm run dev que irá abrir
+o browser de compilação no  Local:   http://127.0.0.1:5173/
+ 
+
 
 
     Essa biblioteca nos permite trabalhar com o CSS dentro do React com TypeScript, mas para isso temos que importá-la
