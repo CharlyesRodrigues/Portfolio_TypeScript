@@ -19,7 +19,9 @@ npm install --save styled-components.
 # Passo a passo do Projeto
 
 1º NODE
+
 2º YARN OU NPM 
+
 3º PowerShell
 
 * npm create vite@latest
