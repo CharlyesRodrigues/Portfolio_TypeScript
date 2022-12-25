@@ -8,9 +8,7 @@ a linguagem selecionada
 3) O botão de linguagem  deve ser um componente onde você passará 3 propriedades: Título,
 ícone e o click dele
 
-4) Nesse projeto eu utilizei React com Styled Components que foi instalado em meu terminal através do comando
-npm install --save styled-components.
-
+4) Nesse projeto eu utilizei React com Styled Components 
 ![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209464095-407264c0-46dc-40d9-af42-0f4f126b52f5.png)
 ![styled](https://user-images.githubusercontent.com/98665329/209464299-9d68a61a-7f39-4682-ab79-c32a0efad346.png)
 
@@ -30,22 +28,29 @@ npm install --save styled-components.
 * Vai pedir o Framework  que será utilizado
 * Por fim vai pedir a variant que no meu caso é o TypeScript
 
-Após o procedimento acima, basta selecionarmos a pasta aonde o arquivo foi criado utilizando o comando cd + mais o nome da pasta
-Após isso digitamos npm install  e logo em seguida abrimos nosso Visual code e  digitamos no terminal npm run dev que irá abrir
-o browser de compilação no  Local:   http://127.0.0.1:5173/
+Após o procedimento acima, basta selecionarmos a pasta aonde o arquivo foi criado utilizando o comando cd +  o nome da pasta.
+Após isso digitamos npm install  e logo em seguida abrimos nosso Visual code e  digitamos no terminal o comando npm run dev
+que irá abrir o browser de compilação no  Local:   http://127.0.0.1:5173/
  
+Instalando nosso Styled Components
 
+Em nosso terminal do VsCode digitamos o comando a seguir:
 
+npm install --save styled-components.
 
-    Essa biblioteca nos permite trabalhar com o CSS dentro do React com TypeScript, mas para isso temos que importá-la
+ Essa biblioteca nos permite trabalhar com o CSS dentro do React com TypeScript, mas para isso temos que importá-la
 para o projeto e utilizá-la em nossos arquivos de style.ts de cada pasta criada.Para cada tag que eu criei em meu arquivo 
 index.tsx eu dei um nome sugestivo  e coloquei dentro do import para ser usado e estilizado no styed component do arquivo 
 ts aonde criei e exportei uma const  como o nome importado(Sugestivo)  e atráves do styled. eu pude dizer se era um botão, 
-uma div ou uma h1  e por ai vai.Vale a pena ressaltar que para o  estilo global tivemos que importar o createGlobalStyle  
-e criar uma constante e exportá-la para ser utilizado em todo o projeto (export const GlobalStyle = createGlobalStyle).
-    Nesse projeto criei três pastas .Uma com o nome componente e sua subpasta chamada botão, outra pasta criada foi a Header
-e a outra foi a Pages com uma subpasta chamada home, todas com um arquivo.tsx e um  style.ts. Cada pasta ficou responsável por
-uma funcionalidade. 
+uma div ou uma h1  e por ai vai.
+Vale a pena ressaltar que para o  estilo global tivemos que importar o createGlobalStyle e criar uma constante e exportá-la 
+para ser utilizado em todo o projeto (export const GlobalStyle = createGlobalStyle).
+ Nesse projeto criei três pastas e cada uma ficou responsável por uma funcionalidade e todas possuem o index.tsx e um style.ts :
+ 
+ * Uma com o nome componente e sua subpasta chamada botão, 
+ * Outra pasta criada foi a Header,
+ * E a outra foi a Pages com uma subpasta chamada home.
+
     No componente botão fiz o uso do useState a qual foi importado e iniciei ele com a escrita principal "Olá meu nome...." a 
 qual seria mudada segundo os botões criados na imagem abaixo que condiz com 3 funções criada nessa pasta a qual cada uma
 muda o estado principal da state para a linguagem selecionada.Fiz também o uso do props, aonde no app.tsx coloquei as informações
@@ -66,7 +71,7 @@ export function Botao(props)
 
 <h1>{props.pt} </h1>
 
-    A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
+ A pasta Header ficou responsável pelo cabeçalho do projeto e a pasta Pages responsável pelas páginas do projeto.
 Dentro da página Home no arquivo index.tsx, fiz três arrays, uma para cada coluna de tecnologia proposta no enunciado,
 e utilizei para cada array uma const coluna aonde  foi possível fazer o map desses arrays e apartir dai chamei para dentro
 do meu codigo html da pasta Home.
@@ -83,7 +88,7 @@ Exemplo:
       <Coluna2>{coluna2}</Coluna2>
       <Coluna3>{coluna3}</Coluna3>
 
-    Todas as páginas criadas  foram exportadas para ser importadas em nosso arquivo  App.tsx, que
+Todas as páginas criadas  foram exportadas para ser importadas em nosso arquivo  App.tsx, que
 praticamente integra todas elas e esse arquivo App.tsx é exportado para  main.tsx.
 
 
