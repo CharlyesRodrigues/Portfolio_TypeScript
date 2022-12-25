@@ -64,7 +64,6 @@ App.tsx
         pt="Portugues"
         en=" Inglês"
         esp=" Spain"
-
       />
 
 Pasta Botao
